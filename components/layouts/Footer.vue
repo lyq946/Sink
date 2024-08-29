@@ -1,5 +1,5 @@
 <script setup>
-import { GmailIcon, TelegramIcon, BloggerIcon, XIcon, MastodonIcon, GitHubIcon } from 'vue3-simple-icons'
+// import { GmailIcon, TelegramIcon, BloggerIcon, XIcon, MastodonIcon, GitHubIcon } from 'vue3-simple-icons'
 
 const email = ref(null)
 onMounted(() => {
@@ -13,87 +13,86 @@ onMounted(() => {
       <a
         href="/"
         class="text-xl font-black leading-none text-gray-900 select-none dark:text-gray-100 logo"
-        title="Sink"
-      >Sink</a>
+        title="BriefURL"
+      >BriefURL</a>
       <a
         class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
-        href="https://html.zone"
-        target="_blank"
-        title="HTML.ZONE"
+        href="/"
+        title="BriefURL"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} BriefURL
       </a>
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
         <a
-          ref="email"
-          href="mailto:sink.cool$miantiao.me"
-          title="Email"
+          href="http://cxyroad.com"
+          target="_blank"
+          title="程序员资料站"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">Email</span>
-          <GmailIcon
+          <span class="">程序员资料站</span>
+          <!--          <GmailIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
         <a
-          href="https://t.me/htmlzone"
+          href="http://cxytools.com"
           target="_blank"
-          title="Telegram"
+          title="程序员在线工具"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">Telegram</span>
-          <TelegramIcon
+          <span class="">程序员在线工具</span>
+          <!--          <TelegramIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
         <a
-          href="https://mt.ci"
+          href="https://xbt100.top"
           target="_blank"
-          title="Blog"
+          title="副业专栏导航站"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">Blog</span>
-          <BloggerIcon
+          <span class="">副业专栏导航站</span>
+          <!--          <BloggerIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
 
         <a
-          href="https://x.com/ccbikai"
+          href="https://ainavhub.com/"
           target="_blank"
-          title="Twitter"
+          title="AI工具导航站"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">Twitter</span>
-          <XIcon
+          <span class="">AI工具导航站</span>
+          <!--          <XIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
 
         <a
-          href="https://miantiao.me/@chi"
+          href="http://chrome.cxyroad.com/"
           target="_blank"
           title="Mastodon"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">Mastodon</span>
-          <MastodonIcon
+          <span class="">谷歌插件大全</span>
+          <!--          <MastodonIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
 
         <a
-          href="https://github.com/ccbikai"
+          href="https://nav.cxyroad.com/"
           target="_blank"
-          title="GitHub"
+          title="程序员导航站"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="sr-only">GitHub</span>
-          <GitHubIcon
+          <span class="">程序员导航站</span>
+          <!--          <GitHubIcon
             class="w-6 h-6"
-          />
+          /> -->
         </a>
       </span>
     </div>

@@ -10,10 +10,11 @@
     </p>
     <div class="flex mt-5">
       <HomeLink
-        href="https://github.com/ccbikai/sink?tab=readme-ov-file#%EF%B8%8F-deployment"
+        href="/"
         type="inverted"
         title="Start Deploy"
       >
+        <!--        href="https://github.com/ccbikai/sink?tab=readme-ov-file#%EF%B8%8F-deployment" -->
         Start Deploy
       </HomeLink>
     </div>

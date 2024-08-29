@@ -21,7 +21,7 @@ defineProps({
       <AvatarFallback>
         <img
           src="/sink.png"
-          alt="Sink"
+          alt="BriefURL"
         >
       </AvatarFallback>
     </Avatar>
