@@ -36,17 +36,19 @@ onMounted(() => {
             class="w-6 h-6"
           /> -->
         </a>
+        
         <a
-          href="http://cxytools.com"
+          href="http://chrome.cxyroad.com/"
           target="_blank"
-          title="程序员在线工具"
+          title="Mastodon"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="">程序员在线工具</span>
-          <!--          <TelegramIcon
+          <span class="">谷歌插件大全</span>
+          <!--          <MastodonIcon
             class="w-6 h-6"
           /> -->
         </a>
+        
         <a
           href="https://xbt100.top"
           target="_blank"
@@ -60,6 +62,15 @@ onMounted(() => {
         </a>
 
         <a
+          href="https://imagegeneratorhub.com/"
+          target="_blank"
+          title="AI图片生成中心"
+          class="text-gray-400 hover:text-gray-500"
+        >
+          <span class="">AI图片生成中心</span>
+        </a>
+
+        <a
           href="https://ainavhub.com/"
           target="_blank"
           title="AI工具导航站"
@@ -70,19 +81,28 @@ onMounted(() => {
             class="w-6 h-6"
           /> -->
         </a>
-
+        
         <a
-          href="http://chrome.cxyroad.com/"
+          href="https://addressgenerator.top/"
           target="_blank"
-          title="Mastodon"
+          title="随机地址生成器"
           class="text-gray-400 hover:text-gray-500"
         >
-          <span class="">谷歌插件大全</span>
-          <!--          <MastodonIcon
+          <span class="">随机地址生成器</span>
+        </a>
+
+        <a
+          href="http://cxytools.com"
+          target="_blank"
+          title="程序员在线工具"
+          class="text-gray-400 hover:text-gray-500"
+        >
+          <span class="">程序员在线工具</span>
+          <!--          <TelegramIcon
             class="w-6 h-6"
           /> -->
         </a>
-
+        
         <a
           href="https://nav.cxyroad.com/"
           target="_blank"
